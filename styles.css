@@ -1,0 +1,57 @@
+body{
+	background-color:lightgrey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mob-interface{
+	width: 360px;
+	height: 640px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+	text-align: center;
+}
+
+.back{
+	background-image: url('img/interface-1.jpg');
+}
+
+
+
+.astro-icons{
+	display: inline-block;
+	margin-top: 130px;
+}
+
+.container{
+	width: 35px;
+    height: 35px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+
+    /*margin-right: 3px;*/
+}
+
+#container1 {
+  background-image: url('img/ico-1-talk-x.png');
+}
+
+#container2 {
+  background-image: url('img/ico-2-talk-x.png');
+}
+
+#container3 {
+  background-image: url('img/ico-3-sex-x.png');
+}
+
+#container4 {
+  background-image: url('img/ico-4-versus-x.png');
+}
+
+#container5 {
+  background-image: url('img/ico-5-respect-x.png');
+}
