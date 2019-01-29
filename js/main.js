@@ -41,8 +41,6 @@ document.addEventListener('click', function(){
 	setTimeout(refresh, 15);
     counter++;
     if (counter === 4) counter = 1;
-    var string = "url('img/interface-" + counter + ".jpg";
+    var string = "url('./img/interface-" + counter + ".jpg')";
     interface.style.backgroundImage = string;
-
-
 }, false);
